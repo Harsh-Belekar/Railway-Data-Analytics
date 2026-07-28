@@ -1,169 +1,193 @@
-# 🚆 Railway Data Engineering & Analytics
+# 🚆 Railway Data Analytics
 
-An end-to-end **Data Engineering & Analytics project** developed as part of a **Data Engineering Internship at Cognifyz Technologies**.  
-This project focuses on analyzing railway operational data to uncover patterns, trends, and actionable insights using Python.
+A comprehensive **Data Analytics** project that explores railway operational data using Python to perform data cleaning, exploratory data analysis (EDA), visualization, and generate actionable business insights.
 
-It demonstrates data ingestion, cleaning, transformation, exploratory data analysis (EDA), visualization, and business-oriented reporting.
+The project demonstrates a complete analytics workflow, from loading and preprocessing raw data to uncovering operational trends and presenting insights through interactive visualizations and a detailed analytical report.
 
-![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python) ![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-green?logo=pandas) ![NumPy](https://img.shields.io/badge/NumPy-Numerical%20Computing-blue?logo=numpy) ![Jupyter Notebook](https://img.shields.io/badge/Jupyter-Notebook-orange?logo=jupyter) ![Data Engineering](https://img.shields.io/badge/Data-Engineering-brightgreen) ![EDA](https://img.shields.io/badge/EDA-Exploratory%20Data%20Analysis-yellow) ![Data Visualization](https://img.shields.io/badge/Data-Visualization-lightblue) ![Project Status](https://img.shields.io/badge/Status-Completed-success) ![Open Source](https://img.shields.io/badge/Open%20Source-Yes-brightgreen)
+![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python) ![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-green?logo=pandas) ![NumPy](https://img.shields.io/badge/NumPy-Numerical%20Computing-blue?logo=numpy) ![Jupyter Notebook](https://img.shields.io/badge/Jupyter-Notebook-orange?logo=jupyter) ![EDA](https://img.shields.io/badge/EDA-Exploratory%20Data%20Analysis-yellow) ![Data Analytics](https://img.shields.io/badge/Data-Analytics-blue) ![Data Visualization](https://img.shields.io/badge/Data-Visualization-lightblue) ![Project Status](https://img.shields.io/badge/Status-Completed-success) ![Open Source](https://img.shields.io/badge/Open%20Source-Yes-brightgreen)
 
 ---
 
-## 📌 Project Overview
+# 📌 Project Overview
 
-The **Railway Data Engineering & Analytics** project processes railway schedule data to understand:
+The **Railway Data Analytics** project analyzes railway operational data to identify trends, patterns, and operational insights.
+
+The analysis focuses on:
+
 - Day-wise train operations
-- High-traffic source and destination stations
-- Weekday vs weekend operational patterns
+- High-traffic source stations
+- High-traffic destination stations
+- Weekday vs Weekend operations
 - Frequently used train routes
-- Operational concentration across major hubs
+- Distribution of train operations across stations
 
-The project follows a structured **data engineering workflow** aligned with real-world industry practices and produces insights useful for operational planning and decision-making.
+Using Python and popular data analytics libraries, the project transforms raw railway data into meaningful visualizations and business insights that support better operational planning and decision-making.
 
 ---
 
-## 🎯 Objective
+# 🎯 Objective
 
-To perform structured data engineering and analytical operations on railway schedule data by:
-- Loading and preprocessing raw CSV data
-- Performing exploratory data analysis (EDA)
+The primary objective of this project is to analyze railway operational data by:
+
+- Loading and inspecting the dataset
+- Cleaning and preprocessing the data
+- Performing Exploratory Data Analysis (EDA)
 - Creating meaningful visualizations
-- Extracting insights and business recommendations
-- Presenting results in a professional project report
+- Discovering operational trends and patterns
+- Generating actionable business insights
+- Presenting the analysis through a professional project report
 
 ---
 
-## 🛠 Tools & Technologies
+# 🛠 Tools & Technologies
 
-- **Python**
-- **Pandas**
-- **NumPy**
-- **Matplotlib**
-- **Seaborn**
-- **Jupyter Notebook**
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Jupyter Notebook
 
 ---
 
-## 📂 Project Structure
+# 📂 Project Structure
 
-```
-├── Railway Data Engineering & Analytics Project Report.pdf
-├── Railway Data Engineering & Analytics.ipynb
-├── Railway_info.csv
+```text
 ├── README.md
 ├── requirements.txt
+│
+├── Docs/
+│   └── Railway Data Analytics Project Report.pdf
+│
+├── Notebook/
+│   └── Railway Data Analytics.ipynb
+│
+├── Data/
+│   └── Railway_info.csv
+│
 └── images/
-    ├── 01_Distribution of Train Operations by Day.png
-    ├── 02_Top 10 Source Stations by Number of Trainsy.png
-    ├── 03_Top 10 Destination Stations by Number of Trains.png
-    ├── 04_Day-wise Distribution of Train Operations.png
-    ├── 05_Weekday vs Weekend Train Operations.png
-    ├── 06_Train Frequency Heatmap (Day vs Day Type).png
-    ├── 07_Top 10 Most Frequent Train Routes (By Source).png
-    └── 08_Distribution of Train Counts Across Source Stations.png
+    ├── 01_Distribution_of_Train_Operations_by_Day.png
+    ├── 02_Top_10_Source_Stations_by_Number_of_Trains.png
+    ├── 03_Top_10_Destination_Stations_by_Number_of_Trains.png
+    ├── 04_Day-wise_Distribution_of_Train_Operations.png
+    ├── 05_Weekday_vs_Weekend_Train_Operations.png
+    ├── 06_Train_Frequency_Heatmap_(Day_vs_Day_Type).png
+    ├── 07_Top_10_Most_Frequent_Train_Routes_(By_Source).png
+    └── 08_Distribution_of_Train_Counts_Across_Source_Stations.png
 ```
 
 ---
 
-## 📊 Key Analysis & Visualizations
+# 📊 Key Analysis & Visualizations
 
-The project includes the following visual insights:
+The project includes the following analyses:
 
-- Distribution of Train Operations by Day  
-- Top 10 Source Stations by Number of Trains  
-- Top 10 Destination Stations by Number of Trains  
-- Day-wise Distribution of Train Operations  
-- Weekday vs Weekend Train Operations  
-- Train Frequency Heatmap (Day vs Day Type)  
-- Top 10 Most Frequent Train Routes  
-- Distribution of Train Counts Across Source Stations  
+- Distribution of Train Operations by Day
+- Top 10 Source Stations by Number of Trains
+- Top 10 Destination Stations by Number of Trains
+- Day-wise Distribution of Train Operations
+- Weekday vs Weekend Train Operations
+- Train Frequency Heatmap (Day vs Day Type)
+- Top 10 Most Frequent Train Routes
+- Distribution of Train Counts Across Source Stations
 
-All visualizations are available in the `images/` folder and generated in the Jupyter Notebook.
+All visualizations were generated using **Matplotlib** and **Seaborn**.
 
 ---
 
-## 📊 Sample Visualizations
+# 📊 Sample Visualizations
 
-### 1. Distribution of Train Operations by Day
-![Train Operations by Day](images/01_Distribution_of_Train_Operations_by_Day.png)
-&nbsp; 
+## 1. Distribution of Train Operations by Day
 
-### 2. Top 10 Source Stations by Number of Trains
-![Top Source Stations](images/02_Top_10_Source_Stations_by_Number_of_Trainsy.png)
+![Distribution of Train Operations by Day](images/01_Distribution_of_Train_Operations_by_Day.png)
 
-### 3. Weekday vs Weekend Train Operations
+---
+
+## 2. Top 10 Source Stations by Number of Trains
+
+![Top Source Stations](images/02_Top_10_Source_Stations_by_Number_of_Trains.png)
+
+---
+
+## 3. Weekday vs Weekend Train Operations
+
 ![Weekday vs Weekend](images/05_Weekday_vs_Weekend_Train_Operations.png)
 
-### 4. Train Frequency Heatmap (Day vs Day Type)
+---
+
+## 4. Train Frequency Heatmap (Day vs Day Type)
+
 ![Heatmap](images/06_Train_Frequency_Heatmap_(Day_vs_Day_Type).png)
 
-### 5. Distribution of Train Counts Across Source Stations
+---
+
+## 5. Distribution of Train Counts Across Source Stations
+
 ![Distribution of Train Counts Across Source Stations](images/08_Distribution_of_Train_Counts_Across_Source_Stations.png)
 
 ---
 
-## 🔍 Key Insights
+# 🔍 Key Insights
 
-- Friday records the highest number of train operations, indicating peak demand
-- Weekday operations dominate over weekends
-- A limited number of stations act as major operational hubs
-- Certain routes show consistently high frequency, indicating strong demand
-- Weekend services present opportunities for expansion
-
----
-
-## 💡 Business Recommendations
-
-- Increase train frequency on high-demand routes during peak days
-- Optimize schedules on low-traffic days such as Mondays
-- Expand weekend services for tourist and leisure travel
-- Allocate additional resources to high-traffic hub stations
-- Utilize mid-week stability for maintenance and optimization
+- Friday records the highest number of train operations, indicating peak travel demand.
+- Weekday train operations exceed weekend operations.
+- A limited number of stations function as major railway hubs.
+- Several routes consistently experience high train frequency.
+- Weekend operations present opportunities for service expansion.
+- Train operations are concentrated among a few key source stations.
 
 ---
 
-## 📄 Project Report
+# 💡 Business Recommendations
 
-A detailed project report is available here:  
-📘 **Railway Data Engineering & Analytics Project Report.pdf**
+- Increase train frequency on high-demand routes during peak operational days.
+- Optimize train schedules on lower-demand days to improve resource utilization.
+- Expand weekend train services to accommodate leisure and tourist travel.
+- Prioritize infrastructure improvements at high-traffic railway stations.
+- Use operational trends to support future route planning and scheduling decisions.
 
-The report includes:
+---
+
+# 📄 Project Report
+
+The repository includes a detailed project report covering:
+
 - Executive Summary
 - Dataset Description
 - Data Cleaning & Preprocessing
-- Exploratory Data Analysis
+- Exploratory Data Analysis (EDA)
+- Data Visualizations
 - Key Insights
 - Business Recommendations
 - Conclusion
 
 ---
 
-## ▶️ How to Run the Project
+# ▶️ How to Run the Project
 
-1. Clone the repository:
-    ```bash
-   git clone https://github.com/Harsh-Belekar/Railway-Data-Engineering-Analytics
-    ```
+### Clone the repository
 
-2. Navigate to the project directory:
-    ```bash
-    cd Railway-Data-Engineering-Analytics
-    ```
+```bash
+git clone https://github.com/Harsh-Belekar/Railway-Data-Analytics.git
+```
 
-3. Install required dependencies:
-    ```bash
-    pip install -r requirements.txt
-    ```
-4. Open the Jupyter Notebook:
-    ```bash
-    jupyter notebook "Railway Data Engineering & Analytics.ipynb"
-    ```
+### Navigate to the project directory
 
---- 
+```bash
+cd Railway-Data-Analytics
+```
 
-## 📌 Internship Context
+### Install dependencies
 
-This project was completed as part of a **Data Engineering Internship** at **Cognifyz Technologies**, with a focus on applying data engineering concepts such as **data preprocessing**, **transformation**, **exploratory analysis**, and **insight-driven reporting** to **a real-world dataset**.
+```bash
+pip install -r requirements.txt
+```
+
+### Launch Jupyter Notebook
+
+```bash
+jupyter notebook "Railway Data Analytics.ipynb"
+```
 
 ---
 
@@ -178,4 +202,3 @@ This project was completed as part of a **Data Engineering Internship** at **Cog
 ---
 
 ⭐ *If you found this project helpful, feel free to star the repo and connect with me for collaboration!*
-
